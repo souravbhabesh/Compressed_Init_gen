@@ -42,7 +42,7 @@ int main( int argc, char **argv )
    /*      Filepaths for output files      */
    //sprintf(filepath, "../Sim_dump/lattice.dat");
    //printf("Enter path where the lattice.dat file will be written\n");
-   sprintf(filepath,"../Sim_dump_ribbon/CompressedInitFiles/Compress_L%d_W%d_C%.1f.dat",NX,NY,COMPRESS);
+   sprintf(filepath,"../Sim_dump_compressed/CompressedInitFiles/Compress_L%d_W%d_C%.1f.dat",NX,NY,COMPRESS);
    printf("Filename of Compressed Lattice Details: %s\n",filepath);
    lat = fopen(filepath, "w");
    if (lat == NULL)
